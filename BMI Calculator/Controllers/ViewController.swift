@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func weightsliderchanged(_ sender: UISlider) {
+        
+       print( sender.value)
+    }
+    @IBAction func heightsliderchanged(_ sender: UISlider) {
+        print( sender.value)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
