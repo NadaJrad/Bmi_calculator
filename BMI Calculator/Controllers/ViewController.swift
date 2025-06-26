@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         print(bmi)
         
         let secondVC = SecondViewController()
+        self.present(secondVC, animated: true, completion: nil)
         
     }
     
