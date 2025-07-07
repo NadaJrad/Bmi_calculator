@@ -15,7 +15,7 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var adviceLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        bmiLabel.text = bmiValue
     }
     
     @IBAction func recalculatePress(_ sender: UIButton) {
